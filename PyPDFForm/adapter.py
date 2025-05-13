@@ -12,7 +12,6 @@ that can be processed by the PDF manipulation functions.
 
 from os.path import isfile
 from typing import Any, BinaryIO, Union
-
 def readable(obj: Any) -> bool:
     """Determines if an object is file-like and readable.
 
